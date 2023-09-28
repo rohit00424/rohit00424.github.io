@@ -51,7 +51,9 @@ h6 {
 
     .w3-image {
         display: block;
-        width: auto;
-        height: auto
+        border-radius: 50%;
+    }
+    #line{
+        text-align: center;
     }
 }
