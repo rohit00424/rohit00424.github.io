@@ -1,0 +1,57 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+.w3-sidebar {
+    width: 120px;
+    background: #000000;
+}
+
+#main {
+    margin-left: 120px
+}
+
+.socmediaalign {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 25px;
+    row-gap: 25px;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.w3-image {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    #main {
+        margin-left: 0
+    }
+
+    .w3-image {
+        display: block;
+        width: auto;
+        height: auto
+    }
+}
