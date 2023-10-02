@@ -8,6 +8,18 @@ h6 {
     font-family: "Montserrat", sans-serif
 }
 
+/* #line {
+    display: none;
+} */
+
+#name {
+    display: none;
+}
+
+#title {
+    display: none;
+}
+
 .w3-row-padding img {
     margin-bottom: 12px
 }
@@ -53,7 +65,9 @@ h6 {
         display: block;
         border-radius: 50%;
     }
-    #line{
+
+    #line {
         text-align: center;
+        ;
     }
 }
